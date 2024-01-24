@@ -1,0 +1,490 @@
+@font-face {
+    font-family: "Citrus Regular";
+    src: url(fonts/CitrusGothic-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Citrus Shadow";
+    src: url(fonts/CitrusGothicShadow-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Citrus Inline";
+    src: url(fonts/CitrusGothicInline-Regular.ttf);
+}
+
+@font-face {
+    font-family:"New Zen Medium";
+    src: url(fonts/NewZenMedium.otf)
+}
+
+@font-face {
+    font-family:"New Zen Semi Italic" ;
+    src: url(fonts/NewZenSemiBoldItalic.otf);
+}
+
+header{
+    background-color: #0f222d;
+}
+
+body{
+    background-color: #E8E7E2;
+    margin: 0%;
+}
+
+h1{
+   font-size: 500%;
+   font-family: "Citrus Shadow"; 
+   text-align: center;
+   background-color: #0f222d;
+   color: #e0d9bb;
+   padding-top: 4%;
+   margin: 0%;
+}
+
+h1 img{
+    width: 60%;
+    height: fit-content;
+}
+
+h1 a{
+    color: #e0d9bb;
+    padding: 0;
+    margin: 0;
+}
+
+h3.content, .parent, .slides, .element, .content, content > img{
+    margin: 0;
+}
+
+
+h2{
+    font-size: 3em;
+    font-family: "Citrus Regular"; 
+    font-weight: 1;
+    text-align: center;
+    background-color: #00423d;
+    color: #e0d9bb;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin: 0%;
+}
+
+article{
+    font-family: "New Zen Medium";
+    
+}
+
+/* bronvermelding voor slideshow: https://www.tutorialspoint.com/programming-a-slideshow-with-html-and-css */
+.parent { width: 100vw; overflow: hidden; display:block;}
+
+.element { width: 100vw; float: left; display:block;}
+
+.slides { width: calc(100vw * 4); animation: slideShow 25s ease infinite; display:block;}
+
+h3 img{
+width: 100vw;
+height: fit-content;
+display:block;
+}
+
+@keyframes slideShow {
+   10% {margin-left: 0px;}
+   30% {margin-left: calc(-100vw * 1);}
+   60% {margin-left: calc(-100vw * 2);}
+   80% {margin-left: calc(-100vw * 3);}
+}
+
+.foto{
+    display: block;
+    width: 100%;
+}
+
+.doel p{
+    text-align: center;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    font-family: "New Zen Semi Italic";
+    margin-bottom: 3vw;
+}
+
+article p{
+    font-size: 1em;  
+}
+
+.productimg{
+    width: 30vw;
+    height: fit-content;
+    /* margin-top: 10vw; */
+    margin-left: 3vw;
+}
+
+article h4{
+    font-size: 1.1em;
+    background-color: #00423d;
+    color: #e0d9bb;
+    border-radius: 8px;
+    padding: 2%;
+    font-family: "Citrus Regular";
+    width: 85vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-weight: 100;
+}
+
+article ol{
+    width: 85vw;
+    padding-top: 0;
+    padding-left: 8.5vw;
+}
+
+.duurzaam-flex{
+    width: 85vw;
+    padding-left: 8.5vw;
+    margin-left: 10vw;
+    margin-right: 5vw;
+}
+
+.links p{
+    margin-right: 30vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.rechts p{
+    margin-left: 30vw;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+    
+.product-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.product-flex p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.duurzaam-flex{
+    /* display: flex; */
+    margin: 0;
+}
+
+.duurzaam-flex img{
+    width: 40vw;
+    height: fit-content;
+    /* padding-top: 40%; */
+}
+
+.duurzaam-flex img.floatRight{
+    float: right;
+}
+
+.duurzaam-flex img.floatLeft{
+    float: left;
+}
+
+.koffiequiz{
+    margin-top: 7vw;
+}
+
+.koffiequiz p, .koffiequiz form{
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.button{
+    background-color:#00423d;
+    color: #e0d9bb;
+    border-radius: 10px;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    width:80vw ;
+    font-family: "Citrus Regular";
+    font-size: 2em;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2vw;
+    margin-left: 9vw;
+    margin-right: 8vw;
+    
+}
+
+.button a{
+    color: #e0d9bb;
+}
+
+input {
+    display: block;
+    margin-bottom: 3vw;
+}
+
+.inputflex{
+    display: flex;
+}
+
+iframe{
+    width: 98.9vw;
+    height: 80vw;   
+}
+
+a{
+    text-decoration: none;
+}
+
+.contact p{
+    margin: 2vw;
+    text-align: center;
+    font-family: Citrus Regular;
+    font-size: 1.25em;
+    margin-top: 5%;
+}
+
+.contact img{
+    width: 30vw;
+    margin:1%
+}
+
+.opentijd{
+    font-family: Citrus Regular;
+    text-align: center;
+}
+
+.opentijd ul{
+    list-style-type: none;
+    padding:0;
+    line-height: 2em;
+}
+
+footer{
+    font-family: "Citrus Regular";
+    position: sticky;
+    bottom: 0;
+    overflow-y: hidden; 
+    /* ^ tip van Kim studentenassistant ^ */
+}
+
+nav{
+    color: #362B1C;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    margin-bottom: -98.2%;
+    /* display: none; */
+}
+
+footer:hover nav{
+    display: block;
+    transition: 0.5s;
+    margin-bottom: 0;
+}
+
+footer a{
+    color: #0f222d;
+}
+
+footer{
+    background-color: #e0d9bb;
+    text-align: center;
+    display: block;
+    border-top: 4px solid #0f222d;
+    /* border-left: 4px solid #0f222d;
+    border-right: 4px solid #0f222d; */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    padding: 5%;
+    color: #0f222d;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+}
+
+.menuborder{
+    border: 5px solid #0f222d;
+    border-radius: 10px;
+    /* padding-bottom: 3vw;
+    padding-top: 3vw; */
+    width: 50%;
+    color: #0f222d;
+    margin: 2%;
+}
+
+.menuflex{
+    display: flex;
+}
+
+.background{
+    background-color: #00423d;
+    border-radius: 4px;
+}
+.background a{
+    color: #e0d9bb;
+}
+
+nav img{
+    width: 28vw;
+    height: fit-content;
+}
+
+.antwoorden{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.antwoorden h4{
+    font-size: 0.9em;
+    margin-bottom: 0;
+    width: 77vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+
+.antwoord{
+    font-size: 2em;
+    
+}
+
+.antwoord img{
+    margin: 5%;
+    height: auto;
+    width: 90%;
+}
+
+.antwoordbody{
+    background-color:#E8E7E2;
+}
+
+.terugbutton{
+    font-size: 1em;
+}
+
+/* bronvermelding loading bar:https://www.youtube.com/watch?v=ogxtJwA2uyE */
+
+.container{
+    margin-top: 15vw;
+    margin-bottom: 15vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loading{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading .line-box{
+    padding: 2px;
+    width: 80%;
+    height: 20px;
+    border: 2px solid #0f222d;
+    border-radius: 20px;
+}
+
+.loading .line-box .line{
+    height: 20px;
+    border-radius: 20px;
+    background: #00423d;
+    animation: loading 2s forwards cubic-bezier(0,0,0,0);
+
+}
+
+.youtube{
+    width: 99vw;
+    height: 55vw;
+    border: 2px solid #0f222d;
+}
+
+.showup{
+    animation: showup 2s cubic-bezier(0,0,0,0);
+}
+
+@keyframes showup{
+    0%{
+        opacity: 0%
+    }
+    80%{
+        opacity: 0%
+    }
+    100%{
+        opacity: 100%
+    }
+}
+
+
+
+
+@keyframes loading{
+    0%{
+        width: 0%;
+    }
+    80%{
+        width: 100%;
+    }
+}
+
+.resultaten {
+    font-size: 2em;
+}
+
+.winkel{
+    width: 100vw;
+    height: fit-content;
+}
+
+.bla{
+    display: flex;
+    font-family: New Zen Semi Italic ;
+    margin-left: 10vw;
+    margin-right: 7vw;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+.bla p{
+    padding: 0;
+}
+ 
+.bla img{
+    width: 35vw;
+    height: fit-content;
+}
+
+/* header {
+    position: sticky;
+    top:0
+} */
+
+video {
+    display: block;
+    width: 100vw;
+    height: fit-content;
+}
+
+#tekst{
+    margin-top: 1.5vw;
+}
+
+/* hoe krijg ik de lijntjes tussen h1 en h2 weg? */
+/* hoe krijg ik de padding om de slideshow weg? */
+/* hoe krijg ik de footer geanimeerd naar boven? */
+/* hoe krijg ik bij producten de foto's er mooi naast? */
+/* hoe krijg ik bij duurzaam de cijfers naast te rechtse tekst? */
+/* hoe krijg ik de teskt om de plaatjes heen bij duurzaamheid? */
+/* hoe krijg ik de radiobuttons naast de antwoorden */
+/* hoe kan ik de a transparant maken en tevoornschijn laten komen van 80% tot 100% */
+/* Errors over divs etc in <ol> */
